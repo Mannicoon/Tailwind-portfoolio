@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="/Assets/Animations.css">
     <title>Karl Andreas Mätlik</title>
 </head>
-<body class="bg-black">
+<body class="bg-sky-800">
 
     <!-- Header -->
     <div class="flex flex-col justify-around w-full h-30 text-gray-300 items-center pt-6 md:flex-row md:pt-0">
@@ -17,53 +16,61 @@
             <h1 class="text-2xl flex items-center font-semibold">Karl Andreas Mätlik</h1>
             <h1 class="text-sm tex-white">NOOREM TARKVARAARENDAJA</h1>
         </div>
-        <div class="justify-end space-x-10 my-7 font-semibold fixed bottom-0 md:static">
-            <a href="index.html" class="w-[90px] text-center bg-blue-900 inline-block md:bg-transparent p-2 rounded border-solid border-2 md:md:transition ease-in-out hover:md:scale-110 hover:md:border-green-700 hover:bg-blue-900 duration-0">Home</a>
-            <a href="Info.html" class="w-[90px] text-center bg-blue-900 inline-block md:bg-transparent p-2 rounded border-solid border-2 md:md:transition ease-in-out hover:md:scale-110 hover:md:border-green-700 hover:bg-blue-900 duration-0">Info</a>
-            <a href="Projektid.html" class="w-[90px] text-center bg-blue-900 inline-block md:bg-transparent p-2 rounded border-solid border-2 md:transition ease-in-out hover:md:scale-110 hover:md:border-green-700 hover:bg-blue-900 duration-0">Projektid</a>
+        <div class="justify-end space-x-10 my-7 font-semibold md:static">
+            <a href="index.html" class="w-[90px] text-center bg-blue-900 inline-block lg:bg-transparent p-2 rounded border-solid border-2 lg:transition ease-in-out hover:lg:scale-110 hover:lg:border-green-700 hover:bg-blue-900 duration-0">
+                Home
+            </a>
+            
+            <a href="Projektid.html" class="w-[90px] text-center bg-blue-900 inline-block lg:bg-transparent p-2 rounded border-solid border-2 lg:transition ease-in-out hover:lg:scale-110 hover:lg:border-green-700 hover:bg-blue-900 duration-0">
+                Projektid
+            </a>
         </div>
         
-    </div>
-
-    <!-- Content -->
-    <div class="grid justify-center md:grid-cols-2 xl:grid-cols-3 pb-[80px] md:pb-[0px] justify-items-center">
-
-        <!-- Janku Portf -->
-        <div class="m-50 w-auto h-auto bg-black p-5 m-5 rounded-xl  md:w-[350px] md:h-[250px]">
-            <div class="flex items-center">
-                <img src="https://jankujuss.netlify.app/Assets/J%C3%A4nku-Juss%20transparent%202%201.png" class="h-[100px] rounded-full mr-5 mb-4" alt="">
-                <h1 class="mb-4 text-xl text-white font-bold">Jänkujussi Portfoolio</h1>
-            </div>
-            <p class="font-semibold text-gray-400">
-                Tööks oli vaja teha portfoolio leht kas tuntud inimesest või väljamõeldud tegelasest
-            </p>
         </div>
 
-        <!-- Visua. Instr. -->
-        <div class="m-50 w-auto h-auto bg-black p-5 m-5 rounded-xl flex-col md:w-[350px] md:h-[250px]">
-            <div class="flex items-center">
-                <i class="material-icons text-[100px] text-white mr-5 mb-4">description</i>
-                <h1 class="mb-4 text-xl text-white font-bold">Virtuaalne instrument</h1>
-            </div>
-            <p class="font-semibold text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Qui voluptates porro suscipit. Nulla totam voluptas atque 
-                odit explicabo, aliquid distinctio.</p>
+        <!-- Content -->
+        <div class="flex justify-around m-4">
+        <div class="grid justify-center m-4 gap-4 md:grid-cols-2 xl:grid-cols-3 justify-items-center">
+
+            <a href="Projects/JänkuPort.html" class="m-50 w-full h-full bg-blue-900 p-5  rounded-xl  md:w-[350px] lg:hover:bg-blue-800">
+                <div>
+                    <div class="flex items-center">
+                        <img src="Assets/img/Jankujuss/juss.png" class="w-[100px] pb-4 pr-4">
+                        <h1 class="mb-4 text-2xl text-white font-bold leading-none">Jänkujussi Portfoolio</h1>
+                    </div>
+                    <p class="font-semibold text-gray-400">
+                        Kuressaare Ametikoolis toimus projektipäev...
+                    </p>
+                </div>
+            </a>
+
+            <a href="Projects/VirtInst.html" class="m-50 w-full h-full bg-blue-900 p-5  rounded-xl  md:w-[350px] lg:hover:bg-blue-800">
+                <div>
+                    <div class="flex items-center">
+                        <img src="Assets/img/Proj.png" class="w-[100px] pb-4 pr-4">
+                        <h1 class="mb-4 text-2xl text-white font-bold leading-none">Virtuaalne Instrument</h1>
+                    </div>
+                    <p class="font-semibold text-gray-400">
+                        Kuressaare Ametikoolis toimus projektipäev...
+                    </p>
+                </div>
+            </a>
+
+            <a href="" class="m-50 w-full h-full bg-blue-900 p-5  rounded-xl  md:w-[350px] lg:hover:bg-blue-800">
+                <div>
+                    <div class="flex items-center">
+                        <img src="https://tpcgames.netlify.app/img/SS_Logo.png" class="w-[100px] pb-4 pr-4">
+                        <h1 class="mb-4 text-2xl text-white font-bold leading-none">Sibba Survival</h1>
+                    </div>
+                    <p class="font-semibold text-gray-400">
+                        Kuressaare Ametikoolis toimus projektipäev...
+                    </p>
+                </div>
+            </a>
+    
+        </div>
         </div>
 
-        <!-- Sibba Survival -->
-        <div class="m-50 w-auto h-auto bg-black p-5 m-5 rounded-xl flex-col md:w-[350px] md:h-[250px]">
-            <div class="flex items-center">
-                <img src="https://tpcgames.netlify.app/img/SS_Logo.png" class="h-[100px] rounded-full mr-5 mb-4" alt="">
-                <h1 class="mb-4 text-xl text-white font-bold">Sibba Survival</h1>
-            </div>
-            <p class="font-semibold text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Qui voluptates porro suscipit. Nulla totam voluptas atque 
-                odit explicabo, aliquid distinctio.</p>
-        </div>
-
-    </div>
-
-    <img src="Assets/img/bg.jpg" alt="" class="-z-10  blur object-cover inset-0 absolute w-screen h-screen">
 
 </body>
 </html>
